@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
         Toolbar myToolbar = (Toolbar) findViewById(R.id.custom_toolbar);
         myToolbar.setTitle("");
-        myToolbar.setLogo(R.drawable.stgo_logo_mini);
+        myToolbar.setLogo(R.drawable.app_logo);
         setSupportActionBar(myToolbar);
 
         //No landscape mode
