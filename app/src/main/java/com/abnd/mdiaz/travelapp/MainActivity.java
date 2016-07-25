@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -12,6 +13,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.custom_toolbar);
+        myToolbar.setTitle("");
+        myToolbar.setLogo(R.drawable.stgo_logo_mini);
+        setSupportActionBar(myToolbar);
 
         //No landscape mode
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
