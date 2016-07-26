@@ -1,14 +1,11 @@
 package com.abnd.mdiaz.travelapp;
 
-/**
- * Created by neboo on 24-Jul-16.
- */
 public class Image {
     private String mTitleText;
     private String mSubtitleText;
     private int mImageResourceId;
 
-    public Image(String titleText, String subtitleText, int imageResourceId){
+    public Image(String titleText, String subtitleText, int imageResourceId) {
         mTitleText = titleText;
         mSubtitleText = subtitleText;
         mImageResourceId = imageResourceId;

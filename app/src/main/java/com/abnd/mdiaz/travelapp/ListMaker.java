@@ -4,11 +4,11 @@ import java.util.ArrayList;
 
 public class ListMaker {
 
-    public ListMaker(){
+    public ListMaker() {
 
     }
 
-    public static ArrayList<Image> getImageList(){
+    public static ArrayList<Image> getImageList() {
 
         ArrayList<Image> images = new ArrayList<>();
 
@@ -26,7 +26,7 @@ public class ListMaker {
         return images;
     }
 
-    public static ArrayList<Location> getPlacesList(){
+    public static ArrayList<Location> getPlacesList() {
 
         ArrayList<Location> places = new ArrayList<>();
 
@@ -44,7 +44,7 @@ public class ListMaker {
         return places;
     }
 
-    public static ArrayList<Location> getRestaurantsList(){
+    public static ArrayList<Location> getRestaurantsList() {
 
         ArrayList<Location> restaurants = new ArrayList<>();
 
@@ -62,7 +62,7 @@ public class ListMaker {
         return restaurants;
     }
 
-    public static ArrayList<Event> getEventsList(){
+    public static ArrayList<Event> getEventsList() {
 
         ArrayList<Event> events = new ArrayList<>();
 

@@ -10,9 +10,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by neboo on 24-Jul-16.
- */
 public class ImageAdapter extends ArrayAdapter<Image> {
 
     public ImageAdapter(Context context, ArrayList<Image> images) {

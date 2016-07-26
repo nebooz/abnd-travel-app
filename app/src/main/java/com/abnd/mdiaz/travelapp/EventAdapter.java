@@ -9,9 +9,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by neboo on 24-Jul-16.
- */
 public class EventAdapter extends ArrayAdapter<Event> {
 
     public EventAdapter(Context context, ArrayList<Event> events) {

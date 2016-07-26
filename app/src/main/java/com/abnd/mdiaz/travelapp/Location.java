@@ -1,8 +1,5 @@
 package com.abnd.mdiaz.travelapp;
 
-/**
- * Created by neboo on 24-Jul-16.
- */
 public class Location {
 
     private String mLocationName;
