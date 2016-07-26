@@ -12,11 +12,16 @@ public class ListMaker {
 
         ArrayList<Image> images = new ArrayList<>();
 
-        images.add(new Image("Titulo1", "Subtitulo1", R.drawable.lamoneda));
-        images.add(new Image("Titulo2", "Subtitulo2", R.drawable.lamoneda));
-        images.add(new Image("Titulo3", "Subtitulo3", R.drawable.lamoneda));
-        images.add(new Image("Titulo4", "Subtitulo4", R.drawable.lamoneda));
-        images.add(new Image("Titulo5", "Subtitulo5", R.drawable.lamoneda));
+        images.add(new Image("Sanhattan ", "© Luis Peña", R.drawable.sanhattan_01));
+        images.add(new Image("Estacion Metro La Cisterna", "© Hugh Honeyman", R.drawable.metro_cisterna));
+        images.add(new Image("Coco Zurita", "© Red Bull Photography", R.drawable.coco_zurita));
+        images.add(new Image("Yungay", "© Two Monkeys Travel Group", R.drawable.yungay));
+        images.add(new Image("Lastarria ", "© Two Monkeys Travel Group", R.drawable.lastarria));
+        images.add(new Image("Japanese Garden ", "© Nellu Mazilu", R.drawable.japanese_garden));
+        images.add(new Image("La Vega Central ", "© Wanderlust Chloe", R.drawable.la_vega));
+        images.add(new Image("Plaza de Armas ", "© Wanderlust Chloe", R.drawable.plaza_armas));
+        images.add(new Image("View from Costanera Center ", "© Backpacker Macca", R.drawable.view_costanera));
+        images.add(new Image("Rooftop Pool at W Hotel ", "© Wanderlust Chloe", R.drawable.w_hotel));
 
         return images;
     }
