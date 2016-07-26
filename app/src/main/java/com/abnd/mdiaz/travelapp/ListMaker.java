@@ -12,16 +12,16 @@ public class ListMaker {
 
         ArrayList<Image> images = new ArrayList<>();
 
-        images.add(new Image("Sanhattan ", "© Luis Peña", R.drawable.sanhattan_01));
-        images.add(new Image("Estacion Metro La Cisterna", "© Hugh Honeyman", R.drawable.metro_cisterna));
-        images.add(new Image("Coco Zurita", "© Red Bull Photography", R.drawable.coco_zurita));
-        images.add(new Image("Yungay", "© Two Monkeys Travel Group", R.drawable.yungay));
-        images.add(new Image("Lastarria ", "© Two Monkeys Travel Group", R.drawable.lastarria));
-        images.add(new Image("Japanese Garden ", "© Nellu Mazilu", R.drawable.japanese_garden));
-        images.add(new Image("La Vega Central ", "© Wanderlust Chloe", R.drawable.la_vega));
-        images.add(new Image("Plaza de Armas ", "© Wanderlust Chloe", R.drawable.plaza_armas));
-        images.add(new Image("View from Costanera Center ", "© Backpacker Macca", R.drawable.view_costanera));
-        images.add(new Image("Rooftop Pool at W Hotel ", "© Wanderlust Chloe", R.drawable.w_hotel));
+        images.add(new Image(TravelApp.getAppContext().getString(R.string.image_01_name), TravelApp.getAppContext().getString(R.string.image_01_copy), R.drawable.sanhattan_01));
+        images.add(new Image(TravelApp.getAppContext().getString(R.string.image_02_name), TravelApp.getAppContext().getString(R.string.image_02_copy), R.drawable.metro_cisterna));
+        images.add(new Image(TravelApp.getAppContext().getString(R.string.image_03_name), TravelApp.getAppContext().getString(R.string.image_03_copy), R.drawable.coco_zurita));
+        images.add(new Image(TravelApp.getAppContext().getString(R.string.image_04_name), TravelApp.getAppContext().getString(R.string.image_04_copy), R.drawable.yungay));
+        images.add(new Image(TravelApp.getAppContext().getString(R.string.image_05_name), TravelApp.getAppContext().getString(R.string.image_05_copy), R.drawable.lastarria));
+        images.add(new Image(TravelApp.getAppContext().getString(R.string.image_06_name), TravelApp.getAppContext().getString(R.string.image_06_copy), R.drawable.japanese_garden));
+        images.add(new Image(TravelApp.getAppContext().getString(R.string.image_07_name), TravelApp.getAppContext().getString(R.string.image_07_copy), R.drawable.la_vega));
+        images.add(new Image(TravelApp.getAppContext().getString(R.string.image_08_name), TravelApp.getAppContext().getString(R.string.image_08_copy), R.drawable.plaza_armas));
+        images.add(new Image(TravelApp.getAppContext().getString(R.string.image_09_name), TravelApp.getAppContext().getString(R.string.image_09_copy), R.drawable.view_costanera));
+        images.add(new Image(TravelApp.getAppContext().getString(R.string.image_10_name), TravelApp.getAppContext().getString(R.string.image_10_copy), R.drawable.w_hotel));
 
         return images;
     }
@@ -30,16 +30,16 @@ public class ListMaker {
 
         ArrayList<Location> places = new ArrayList<>();
 
-        places.add(new Location("Sky Costanera", "TripAdvisor Rank #1", "Observation Decks & Towers", R.drawable.sky_costanera));
-        places.add(new Location("Museo de la Memoria", "TripAdvisor Rank #2", "Specialty Museums", R.drawable.museo_memoria));
-        places.add(new Location("La Chascona", "TripAdvisor Rank #3", "Specialty Museums", R.drawable.la_chascona));
-        places.add(new Location("Parque Araucano", "TripAdvisor Rank #4", "Parks", R.drawable.parque_araucano));
-        places.add(new Location("Patio Bellavista", "TripAdvisor Rank #5", "Points of Interest & Landmarks", R.drawable.patio_bellavista));
-        places.add(new Location("Museo de Arte Precolombino", "TripAdvisor Rank #6", "Art Museums", R.drawable.museo_pre));
-        places.add(new Location("Barrio Lastarria", "TripAdvisor Rank #7", "Neighborhoods", R.drawable.barrio_lastarria));
-        places.add(new Location("Cerro Santa Lucia", "TripAdvisor Rank #8", "Points of Interest & Landmarks", R.drawable.cerro_santa_lucia));
-        places.add(new Location("Catedral Metropolitana", "TripAdvisor Rank #9", "Architectural Buildings", R.drawable.metro_cathedral));
-        places.add(new Location("Museo Interactivo Mirador", "TripAdvisor Rank #10", "Specialty Museums", R.drawable.museo_mirador));
+        places.add(new Location(TravelApp.getAppContext().getString(R.string.place_01_name), TravelApp.getAppContext().getString(R.string.trip_rank_01), TravelApp.getAppContext().getString(R.string.place_type_01), R.drawable.sky_costanera));
+        places.add(new Location(TravelApp.getAppContext().getString(R.string.place_02_name), TravelApp.getAppContext().getString(R.string.trip_rank_02), TravelApp.getAppContext().getString(R.string.place_type_02), R.drawable.museo_memoria));
+        places.add(new Location(TravelApp.getAppContext().getString(R.string.place_03_name), TravelApp.getAppContext().getString(R.string.trip_rank_03), TravelApp.getAppContext().getString(R.string.place_type_02), R.drawable.la_chascona));
+        places.add(new Location(TravelApp.getAppContext().getString(R.string.place_04_name), TravelApp.getAppContext().getString(R.string.trip_rank_04), TravelApp.getAppContext().getString(R.string.place_type_03), R.drawable.parque_araucano));
+        places.add(new Location(TravelApp.getAppContext().getString(R.string.place_05_name), TravelApp.getAppContext().getString(R.string.trip_rank_05), TravelApp.getAppContext().getString(R.string.place_type_04), R.drawable.patio_bellavista));
+        places.add(new Location(TravelApp.getAppContext().getString(R.string.place_06_name), TravelApp.getAppContext().getString(R.string.trip_rank_06), TravelApp.getAppContext().getString(R.string.place_type_05), R.drawable.museo_pre));
+        places.add(new Location(TravelApp.getAppContext().getString(R.string.place_07_name), TravelApp.getAppContext().getString(R.string.trip_rank_07), TravelApp.getAppContext().getString(R.string.place_type_06), R.drawable.barrio_lastarria));
+        places.add(new Location(TravelApp.getAppContext().getString(R.string.place_08_name), TravelApp.getAppContext().getString(R.string.trip_rank_08), TravelApp.getAppContext().getString(R.string.place_type_04), R.drawable.cerro_santa_lucia));
+        places.add(new Location(TravelApp.getAppContext().getString(R.string.place_09_name), TravelApp.getAppContext().getString(R.string.trip_rank_09), TravelApp.getAppContext().getString(R.string.place_type_07), R.drawable.metro_cathedral));
+        places.add(new Location(TravelApp.getAppContext().getString(R.string.place_10_name), TravelApp.getAppContext().getString(R.string.trip_rank_10), TravelApp.getAppContext().getString(R.string.place_type_02), R.drawable.museo_mirador));
 
         return places;
     }
@@ -48,16 +48,16 @@ public class ListMaker {
 
         ArrayList<Location> restaurants = new ArrayList<>();
 
-        restaurants.add(new Location("Peumayen Ancestral Food", "TripAdvisor Rank #1", "Chilean", R.drawable.peumayen));
-        restaurants.add(new Location("Naoki", "TripAdvisor Rank #2", "Japanese", R.drawable.naoki));
-        restaurants.add(new Location("Bocanariz", "TripAdvisor Rank #3", "Wine Bar", R.drawable.bocanariz));
-        restaurants.add(new Location("Osaka", "TripAdvisor Rank #4", "Japanese", R.drawable.osaka));
-        restaurants.add(new Location("Panko", "TripAdvisor Rank #5", "Japanese", R.drawable.panko));
-        restaurants.add(new Location("La Fabbrica", "TripAdvisor Rank #6", "Italian", R.drawable.la_fabbrica));
-        restaurants.add(new Location("Uncle Fletch", "TripAdvisor Rank #7", "American", R.drawable.uncle_fletch));
-        restaurants.add(new Location("Le Bistrot", "TripAdvisor Rank #8", "French", R.drawable.le_bistrot));
-        restaurants.add(new Location("Jewel of India", "TripAdvisor Rank #9", "Indian", R.drawable.jewel_india));
-        restaurants.add(new Location("Laminga", "TripAdvisor Rank #10", "Chilean", R.drawable.laminga));
+        restaurants.add(new Location(TravelApp.getAppContext().getString(R.string.restaurant_01_name), TravelApp.getAppContext().getString(R.string.trip_rank_01), TravelApp.getAppContext().getString(R.string.restaurant_type_01), R.drawable.peumayen));
+        restaurants.add(new Location(TravelApp.getAppContext().getString(R.string.restaurant_02_name), TravelApp.getAppContext().getString(R.string.trip_rank_02), TravelApp.getAppContext().getString(R.string.restaurant_type_02), R.drawable.naoki));
+        restaurants.add(new Location(TravelApp.getAppContext().getString(R.string.restaurant_03_name), TravelApp.getAppContext().getString(R.string.trip_rank_03), TravelApp.getAppContext().getString(R.string.restaurant_type_03), R.drawable.bocanariz));
+        restaurants.add(new Location(TravelApp.getAppContext().getString(R.string.restaurant_04_name), TravelApp.getAppContext().getString(R.string.trip_rank_04), TravelApp.getAppContext().getString(R.string.restaurant_type_02), R.drawable.osaka));
+        restaurants.add(new Location(TravelApp.getAppContext().getString(R.string.restaurant_05_name), TravelApp.getAppContext().getString(R.string.trip_rank_05), TravelApp.getAppContext().getString(R.string.restaurant_type_02), R.drawable.panko));
+        restaurants.add(new Location(TravelApp.getAppContext().getString(R.string.restaurant_06_name), TravelApp.getAppContext().getString(R.string.trip_rank_06), TravelApp.getAppContext().getString(R.string.restaurant_type_04), R.drawable.la_fabbrica));
+        restaurants.add(new Location(TravelApp.getAppContext().getString(R.string.restaurant_07_name), TravelApp.getAppContext().getString(R.string.trip_rank_07), TravelApp.getAppContext().getString(R.string.restaurant_type_05), R.drawable.uncle_fletch));
+        restaurants.add(new Location(TravelApp.getAppContext().getString(R.string.restaurant_08_name), TravelApp.getAppContext().getString(R.string.trip_rank_08), TravelApp.getAppContext().getString(R.string.restaurant_type_06), R.drawable.le_bistrot));
+        restaurants.add(new Location(TravelApp.getAppContext().getString(R.string.restaurant_09_name), TravelApp.getAppContext().getString(R.string.trip_rank_09), TravelApp.getAppContext().getString(R.string.restaurant_type_07), R.drawable.jewel_india));
+        restaurants.add(new Location(TravelApp.getAppContext().getString(R.string.restaurant_10_name), TravelApp.getAppContext().getString(R.string.trip_rank_10), TravelApp.getAppContext().getString(R.string.restaurant_type_01), R.drawable.laminga));
 
         return restaurants;
     }
@@ -66,16 +66,16 @@ public class ListMaker {
 
         ArrayList<Event> events = new ArrayList<>();
 
-        events.add(new Event("January", 0));
-        events.add(new Event("1/3", "Santiago a Mil", 1));
-        events.add(new Event("1/14", "Festival Internacional de Jazz", 1));
-        events.add(new Event("1/28", "Festival del Folklore de San Bernardo", 1));
-        events.add(new Event("March", 0));
-        events.add(new Event("3/19", "Lollapalooza Chile", 1));
-        events.add(new Event("August", 0));
-        events.add(new Event("8/23", "Festival Internacional de Cine de Santiago", 1));
-        events.add(new Event("October", 0));
-        events.add(new Event("10/20", "Feria Internacional del Libro de Santiago", 1));
+        events.add(new Event(TravelApp.getAppContext().getString(R.string.event_month_01), 0));
+        events.add(new Event(TravelApp.getAppContext().getString(R.string.event_date_01_03), TravelApp.getAppContext().getString(R.string.event_name_01), 1));
+        events.add(new Event(TravelApp.getAppContext().getString(R.string.event_date_01_14), TravelApp.getAppContext().getString(R.string.event_name_02), 1));
+        events.add(new Event(TravelApp.getAppContext().getString(R.string.event_date_01_28), TravelApp.getAppContext().getString(R.string.event_name_03), 1));
+        events.add(new Event(TravelApp.getAppContext().getString(R.string.event_month_03), 0));
+        events.add(new Event(TravelApp.getAppContext().getString(R.string.event_date_03_19), TravelApp.getAppContext().getString(R.string.event_name_04), 1));
+        events.add(new Event(TravelApp.getAppContext().getString(R.string.event_month_08), 0));
+        events.add(new Event(TravelApp.getAppContext().getString(R.string.event_date_08_23), TravelApp.getAppContext().getString(R.string.event_name_05), 1));
+        events.add(new Event(TravelApp.getAppContext().getString(R.string.event_month_10), 0));
+        events.add(new Event(TravelApp.getAppContext().getString(R.string.event_date_10_20), TravelApp.getAppContext().getString(R.string.event_name_06), 1));
 
         return events;
     }
