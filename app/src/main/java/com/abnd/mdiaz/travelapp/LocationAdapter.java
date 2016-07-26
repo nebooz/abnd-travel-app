@@ -10,13 +10,13 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by neboo on 24-Jul-16.
- */
 public class LocationAdapter extends ArrayAdapter<Location> {
 
-    public LocationAdapter(Context context, ArrayList<Location> locations) {
+    private int mStyleColor;
+
+    public LocationAdapter(Context context, ArrayList<Location> locations, int styleColor) {
         super(context, 0, locations);
+        mStyleColor = styleColor;
     }
 
     @Override
@@ -36,10 +36,15 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         rankingText.setText(currentImage.getLocationRanking());
 
         TextView styleText = (TextView) listItemView.findViewById(R.id.location_extra);
+        styleText.setBackgroundResource(mStyleColor);
         styleText.setText(currentImage.getLocationStyle());
 
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.location_image);
         imageView.setImageResource(currentImage.getImageResourceId());
+
+        //Not sure if I'll do the whole 'Open Map App' thing yet...
+        ImageView mapButton = (ImageView) listItemView.findViewById(R.id.map_button);
+        mapButton.setVisibility(View.GONE);
 
         return listItemView;
     }

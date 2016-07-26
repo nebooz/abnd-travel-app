@@ -60,7 +60,7 @@
     </RelativeLayout>
 
     <ImageView
-        android:id="@+id/imageButton"
+        android:id="@+id/map_button"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_alignParentEnd="true"

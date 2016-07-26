@@ -7,4 +7,6 @@
     <color name="tab_selected_text_color">#FFFFFF</color>
     <color name="tab_background_selected">#2196F3</color>
     <color name="tab_background_unselected">#2196F3</color>
+    <color name="food_color">#F44336</color>
+    <color name="place_color">#2196F3</color>
 </resources>

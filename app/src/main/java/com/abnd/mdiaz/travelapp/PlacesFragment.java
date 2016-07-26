@@ -26,7 +26,7 @@ public class PlacesFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.basic_list_view, container, false);
 
-        LocationAdapter adapter = new LocationAdapter(getActivity(), ListMaker.getPlacesList());
+        LocationAdapter adapter = new LocationAdapter(getActivity(), ListMaker.getPlacesList(), R.color.place_color);
 
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 

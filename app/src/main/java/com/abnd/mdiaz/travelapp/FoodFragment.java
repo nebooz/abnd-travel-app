@@ -26,7 +26,7 @@ public class FoodFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.basic_list_view, container, false);
 
-        LocationAdapter adapter = new LocationAdapter(getActivity(), ListMaker.getRestaurantsList());
+        LocationAdapter adapter = new LocationAdapter(getActivity(), ListMaker.getRestaurantsList(), R.color.food_color);
 
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 
