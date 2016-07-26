@@ -2,9 +2,6 @@ package com.abnd.mdiaz.travelapp;
 
 import java.util.ArrayList;
 
-/**
- * Created by neboo on 25-Jul-16.
- */
 public class ListMaker {
 
     public ListMaker(){
@@ -46,16 +43,16 @@ public class ListMaker {
 
         ArrayList<Location> restaurants = new ArrayList<>();
 
-        restaurants.add(new Location("Sky Costanera", "TripAdvisor Rank #1", "Observation Decks & Towers", R.drawable.sky_costanera));
-        restaurants.add(new Location("Museo de la Memoria", "TripAdvisor Rank #2", "Specialty Museums", R.drawable.museo_memoria));
-        restaurants.add(new Location("La Chascona", "TripAdvisor Rank #3", "Specialty Museums", R.drawable.la_chascona));
-        restaurants.add(new Location("Parque Araucano", "TripAdvisor Rank #4", "Parks", R.drawable.parque_araucano));
-        restaurants.add(new Location("Patio Bellavista", "TripAdvisor Rank #5", "Points of Interest & Landmarks", R.drawable.patio_bellavista));
-        restaurants.add(new Location("Museo de Arte Precolombino", "TripAdvisor Rank #6", "Art Museums", R.drawable.museo_pre));
-        restaurants.add(new Location("Barrio Lastarria", "TripAdvisor Rank #7", "Neighborhoods", R.drawable.barrio_lastarria));
-        restaurants.add(new Location("Cerro Santa Lucia", "TripAdvisor Rank #8", "Points of Interest & Landmarks", R.drawable.cerro_santa_lucia));
-        restaurants.add(new Location("Catedral Metropolitana", "TripAdvisor Rank #9", "Architectural Buildings", R.drawable.metro_cathedral));
-        restaurants.add(new Location("Museo Interactivo Mirador", "TripAdvisor Rank #10", "Specialty Museums", R.drawable.museo_mirador));
+        restaurants.add(new Location("Peumayen Ancestral Food", "TripAdvisor Rank #1", "Chilean", R.drawable.peumayen));
+        restaurants.add(new Location("Naoki", "TripAdvisor Rank #2", "Japanese", R.drawable.naoki));
+        restaurants.add(new Location("Bocanariz", "TripAdvisor Rank #3", "Wine Bar", R.drawable.bocanariz));
+        restaurants.add(new Location("Osaka", "TripAdvisor Rank #4", "Japanese", R.drawable.osaka));
+        restaurants.add(new Location("Panko", "TripAdvisor Rank #5", "Japanese", R.drawable.panko));
+        restaurants.add(new Location("La Fabbrica", "TripAdvisor Rank #6", "Italian", R.drawable.la_fabbrica));
+        restaurants.add(new Location("Uncle Fletch", "TripAdvisor Rank #7", "American", R.drawable.uncle_fletch));
+        restaurants.add(new Location("Le Bistrot", "TripAdvisor Rank #8", "French", R.drawable.le_bistrot));
+        restaurants.add(new Location("Jewel of India", "TripAdvisor Rank #9", "Indian", R.drawable.jewel_india));
+        restaurants.add(new Location("Laminga", "TripAdvisor Rank #10", "Chilean", R.drawable.laminga));
 
         return restaurants;
     }
