@@ -67,11 +67,15 @@ public class ListMaker {
         ArrayList<Event> events = new ArrayList<>();
 
         events.add(new Event("January", 0));
-        events.add(new Event("1/6", "Algo que pasa el 6 de Enero", 1));
-        events.add(new Event("1/30", "Cumple de Denisse", 1));
-        events.add(new Event("Junio", 0));
-        events.add(new Event("6/26", "Cumple de Alguien Mas", 1));
-        events.add(new Event("6/30", "Cumple de Maximiliano", 1));
+        events.add(new Event("1/3", "Santiago a Mil", 1));
+        events.add(new Event("1/14", "Festival Internacional de Jazz", 1));
+        events.add(new Event("1/28", "Festival del Folklore de San Bernardo", 1));
+        events.add(new Event("March", 0));
+        events.add(new Event("3/19", "Lollapalooza Chile", 1));
+        events.add(new Event("August", 0));
+        events.add(new Event("8/23", "Festival Internacional de Cine de Santiago", 1));
+        events.add(new Event("October", 0));
+        events.add(new Event("10/20", "Feria Internacional del Libro de Santiago", 1));
 
         return events;
     }
